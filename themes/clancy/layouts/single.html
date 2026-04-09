@@ -31,7 +31,7 @@
   <div class="row">
     <div class="col col-12">
       <div class="post-image">
-        <img class="lazy" data-src="{{ .Params.Image | absURL }}" alt="{{ .Title }}">
+        <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}">
       </div>
     </div>
   </div>
@@ -69,7 +69,7 @@
   {{ if .Params.image }}
   <div class="row" style="justify-content: center; margin-bottom: 60px;">
     <div class="col col-12">
-      <img class="lazy" data-src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" style="width: 100%; height: auto; border-radius: 12px;">
+      <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" style="width: 100%; height: auto; border-radius: 12px;">
     </div>
   </div>
   {{ end }}
@@ -101,7 +101,7 @@
   {{ if .Params.image }}
   <div class="row" style="justify-content: center; margin-bottom: 60px;">
     <div class="col col-12" style="display: flex; justify-content: center;">
-      <img class="lazy" data-src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" style="width: 360px; border-radius: 12px;">
+      <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" style="width: 360px; border-radius: 12px;">
     </div>
   </div>
   {{ end }}
