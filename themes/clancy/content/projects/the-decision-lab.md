@@ -2,7 +2,7 @@
 title: The Decision Lab
 description: Applying behavioural science to real-world problems.
 date: 2021-04-01
-image: '/images/TheDecisionLab.png'
+image: '/images/the-decision-lab.png'
 tags: [Consulting, Behavioural Science, Research]
 ---
 

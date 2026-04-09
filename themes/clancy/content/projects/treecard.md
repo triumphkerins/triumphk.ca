@@ -2,7 +2,7 @@
 title: Treecard
 description: Product marketing for a fintech app that plants trees with your spending.
 date: 2025-01-01
-image: '/images/TreecardScreen.png'
+image: '/images/treecard-screen.png'
 tags: [Product Marketing, Fintech, Growth]
 ---
 

@@ -2,7 +2,7 @@
 title: Can Money Buy Happiness? A Deeper Dive
 description: Exploring the complicated relationship between wealth and wellbeing.
 date: 2021-08-27
-image: '/images/MoneyHappiness.png'
+image: '/images/money-happiness.png'
 tags: [Economics, Psychology, Finance]
 ---
 
@@ -22,7 +22,7 @@ In a way, this figure makes intuitive sense. An income of $75,000 is well above 
 
 The myth of the $75,000 figure began about 10 years ago, emerging from a landmark Princeton study by Nobel Prize–winning economists Daniel Kahneman and Angus Deaton. Widely misquoted, the study actually assessed how income led to a more positive long-term outlook on life, rather than increases in day-to-day happiness. At the time this study was conducted, $75,000 was found to be enough money to keep day-to-day financial concerns at bay; in essence, individuals in this income bracket had reached "middle-class status." However, for most people, this level of wealth still wasn't quite enough to achieve some long-term goals, like buying a house.
 
-In short, instead of painting $75,000 as the ticket to feeling fantastic every day, the authors argued that the financial security conferred by this amount of wealth improves how we feel about life overall. However, even at this level of income, there was room for improvement in people's well-being: the more money they had, the more optimistic they were about their long-term prospects. While slightly more complicated, this is the upshot of the original Kahneman and Deaton paper, rather than the oversimplified "happiness tops out at $75,000" which we've all read in the media.
+In short, instead of painting $75,000 as the ticket to feeling fantastic every day, the authors argued that the financial security conferred by this amount of wealth improves how we feel about life overall. However, even at this level of income, there was room for improvementin people's well-being: the more money they had, the more optimistic they were about their long-term prospects. While slightly more complicated, this is the upshot of the original Kahneman and Deaton paper, rather than the oversimplified "happiness tops out at $75,000" which we've all read in the media.
 
 ### What Went Wrong?
 

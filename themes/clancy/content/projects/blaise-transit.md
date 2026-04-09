@@ -2,7 +2,7 @@
 title: Blaise Transit
 description: Mobility tech using AI to help communities launch public transit.
 date: 2026-04-07
-image: '/images/BlaiseHeader.png'
+image: '/images/blaise-header.png'
 tags: [Sales, Transit, Tech, SaaS]
 ---
 
