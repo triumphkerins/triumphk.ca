@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Climate on Triumph Kerins</title>
+    <link>http://localhost:1313/tags/climate/</link>
+    <description>Recent content in Climate on Triumph Kerins</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/climate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;This is where your writing goes. You can write about anything here — psychology, economics, technology, or whatever&amp;rsquo;s on your mind.&lt;/p&gt;&#xA;&lt;p&gt;A new paragraph is just a blank line between text, like this one.&lt;/p&gt;&#xA;&lt;h3 id=&#34;you-can-add-headings-like-this&#34;&gt;You can add headings like this&lt;/h3&gt;&#xA;&lt;p&gt;And just keep writing underneath. That&amp;rsquo;s really all there is to it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

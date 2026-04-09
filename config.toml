@@ -1,0 +1,142 @@
+#-------------------------------
+# General Site Settings
+baseURL = "https://triumphk.ca/"
+theme = "clancy"
+languageCode = "en-us"
+title = "Triumph Kerins"
+googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Pagination settings:
+[pagination]
+  pagerSize = 9
+
+
+[params]
+  logo = "" # You can add own logo. For example "/images/logo.png".
+  author = "Triumph Kerins"
+  description = "Writer, growth, and product person working on projects that make the world a better place."
+
+
+#-------------------------------
+# Main Menu
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+
+  #-------------------------------
+  # Hero Settings
+  [params.hero]
+    hero__title = "Hello, I'm Triumph."
+    hero__description = "I’m a writer, growth, and product person. I work on technology that I think will make the world a better place."
+
+
+  #-------------------------------
+  # Portfolio Settings
+  [params.portfolio]
+    portfolio__title = "Projects"
+
+  [[params.gallery_item]]
+    image = "/images/Blaise.png"
+    title = "Blaise Transit"
+    description = "Sales"
+    url = "/projects/blaise-transit/"
+
+  [[params.gallery_item]]
+    image = "/images/Treecard.png"
+    title = "Treecard"
+    description = "Product Marketing"
+    url = "/projects/treecard/"
+
+  [[params.gallery_item]]
+    image = "/images/TDL.png"
+    title = "The Decision Lab"
+    description = "Consulting"
+    url = "/projects/the-decision-lab/"
+
+  #-------------------------------
+  # Footer Settings
+  [[params.social]]
+    icon = "ion-logo-twitter"
+    name = "Twitter"
+    link = "https://twitter.com"
+    color = "#55acee"
+
+  [[params.social]]
+    icon = "ion-logo-facebook"
+    name = "Facebook"
+    link = "https://facebook.com"
+    color = "#3b5999"
+
+  [[params.social]]
+    icon = "ion-logo-pinterest"
+    name = "Pinterest"
+    link = "https://pinterest.com"
+    color = "#bd081c"
+
+  [[params.social]]
+    icon = "ion-logo-dribbble"
+    name = "Dribbble"
+    link = "https://dribbble.com"
+    color = "#ea4c89"
+
+  [[params.social]]
+    icon = "ion-logo-instagram"
+    name = "Instagram"
+    link = "https://instagram.com"
+    color = "#e4405f"
+
+
+  [[params.social]]
+    icon = "ion-logo-vimeo"
+    name = "Vimeo"
+    link = "https://vimeo.com"
+    color = "#1393cd"
+
+  # Example of adding a new link to the footer section:
+  # [[params.social]]
+  #   icon = "ion-logo-youtube"
+  #   name = "Youtube"
+  #   link = "https://youtube.com"
+  #   color = "#ff0000"
+
+  # Other icons can be found at https://ionicons.com/v4/
+
+
+  #-------------------------------
+  # Contact Settings
+  [params.contact]
+    email = "triumph.h.kerins@gmail.com"
+
+  #-------------------------------
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false

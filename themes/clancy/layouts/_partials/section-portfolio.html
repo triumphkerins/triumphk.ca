@@ -1,0 +1,27 @@
+<section class="section portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12" style="text-align: center; margin-bottom: 40px;">
+        <h2 style="font-size: 2.2rem; font-weight: 700;">Featured Work</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ with .Site.Params.gallery_item }}
+        {{ range . }}
+        <div class="col col-4 col-d-6 col-t-12" style="margin-bottom: 40px; text-align: center;">
+          <a href="{{ .url | default "#" }}" style="text-decoration: none; color: inherit;">
+            <div style="border-radius: 12px; overflow: hidden; background: #e8e8e8; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;">
+              {{ if .image }}
+              <img src="{{ .image }}" alt="{{ .title }}" style="width: 100%; height: 100%; object-fit: cover;">
+              {{ end }}
+            </div>
+            <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 6px;">{{ .title }}</h3>
+            <p style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: #888;">{{ .description }}</p>
+          </a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
