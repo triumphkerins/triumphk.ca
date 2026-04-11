@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-baseURL = "https://triumphk.ca/"
+baseURL = "https://delicate-starburst-eba14e.netlify.app/"
 theme = "clancy"
 languageCode = "en-us"
 title = "Triumph Kerins"
